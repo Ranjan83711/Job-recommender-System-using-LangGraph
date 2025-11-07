@@ -215,7 +215,6 @@ Top jobs ranked by semantic similarity.
 | ---------------------- | ---------------------------------- |
 | 📄 Resume Summary      | AI-generated overview of candidate |
 | 🛠️ Skill Gaps         | Weak or missing skills             |
-| 🚀 90-Day Roadmap      | Actionable 3-month plan            |
 | 💼 Job Recommendations | Top matching jobs with apply links |
 | 🤖 Why These Jobs      | AI explanation of match            |
 
@@ -305,26 +304,4 @@ It combines **NLP, embeddings, and cloud APIs** to deliver personalized, data-dr
 
 ---
 
-## 🧾 **11. Presentation Slide Titles (for your PPT)**
 
-You can use these slide headings to design your PowerPoint:
-
-1. Project Title & Team
-2. Introduction & Objective
-3. Problem Statement
-4. Solution Overview
-5. System Architecture
-6. Workflow Diagram (LangGraph Flow)
-7. Resume → Profile Pipeline
-8. Job Search & Ranking Pipeline
-9. Skill Gap & Roadmap Pipeline
-10. Final Output (UI Screenshots)
-11. Technologies Used
-12. Advantages
-13. Future Scope
-14. Conclusion
-
----
-
-Would you like me to create a **flowchart-style diagram** (arrows + boxes) of your workflow and architecture so you can insert it directly into your PPT?
-I can generate it visually (clean, labeled, and presentation-ready).
