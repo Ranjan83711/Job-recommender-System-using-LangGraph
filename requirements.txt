@@ -1,6 +1,6 @@
 streamlit
-langchain
-langchain-community
+langchain==0.2.11
+langchain-community==0.2.11
 langgraph
 python-dotenv
 requests
@@ -11,4 +11,5 @@ faiss-cpu
 rapidfuzz
 sentence-transformers
 transformers
+
 
