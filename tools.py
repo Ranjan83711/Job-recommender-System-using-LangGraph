@@ -5,7 +5,7 @@ from typing import List, Dict, Any
 from dotenv import load_dotenv
 load_dotenv()
 
-from langchain_groq import ChatGroq
+from langchain_community.chat_models import ChatGroq
 from langchain.prompts import PromptTemplate
 from langchain.schema import HumanMessage
 from pypdf import PdfReader
@@ -181,3 +181,4 @@ def generate_roadmap(llm, profile_json, target_roles):
     return llm_text(llm, ROADMAP_PROMPT, profile_json=json.dumps(profile_json), target_roles=", ".join(target_roles))
 def summarize_recommendations(llm, profile_json, jobs):
     return llm_text(llm, RECOMMENDER_SUMMARY_PROMPT, profile_json=json.dumps(profile_json), jobs_json=json.dumps(jobs[:8]))
+
