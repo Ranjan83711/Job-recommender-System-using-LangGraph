@@ -1,6 +1,3 @@
-# Job-recommender-System-using-LangGraph
-
----
 
 # 🧠 **Project Title:**
 
