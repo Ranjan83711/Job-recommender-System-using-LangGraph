@@ -37,6 +37,19 @@ The project integrates **LangChain**, **LangGraph**, **Groq API**, and **Hugging
 | **Backend**          | Resume parsing, processing, ranking          | Python                     |
 | **Storage**          | Temporary resume file and state memory       | Local (in runtime)         |
 
+📄 read_resume_text()
+     ↓
+🧠 make_resume_summary()  →  extract_profile()
+     ↓
+💼 search_jobs()  →  score_jobs()
+     ↓
+⚙️ compute_skill_gaps()
+     ↓
+🚀 generate_roadmap()
+     ↓
+🤖 summarize_recommendations()
+
+
 ---
 
 ## 🔄 **4. Complete Workflow / Pipelines**
