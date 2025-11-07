@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Data Analyst",
+    "company": "Acme Corp",
+    "location": "Bengaluru, IN",
+    "via": "Sample",
+    "description": "SQL, Python, Tableau, statistics, A/B testing. 1-3 yrs.",
+    "link": "https://www.naukri.com/data-analyst-jobs"
+  },
+  {
+    "title": "Business Analyst - FinTech",
+    "company": "FinX",
+    "location": "Mumbai, IN",
+    "via": "Sample",
+    "description": "BRD, JIRA, SQL basics, stakeholder mgmt, payments domain.",
+    "link": "https://www.linkedin.com/jobs/"
+  }
+]

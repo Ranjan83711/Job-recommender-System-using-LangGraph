@@ -1,0 +1,11 @@
+streamlit
+langchain
+langgraph
+python-dotenv
+requests
+pypdf
+python-docx
+tiktoken
+faiss-cpu
+rapidfuzz
+transformers
