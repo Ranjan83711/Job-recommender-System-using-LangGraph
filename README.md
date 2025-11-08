@@ -7,7 +7,7 @@
 
 ## 🏁 **1. Project Overview**
 
-The **GenAI Job Recommender System** is an AI-driven platform that automatically analyzes a candidate’s resume and provides **personalized job recommendations**, **skill gap analysis**, and a **90-day learning roadmap** using **LLMs (Large Language Models)** and real-time job APIs.
+The **GenAI Job Recommender System** is an AI-driven platform that automatically analyzes a candidate’s resume and provides **personalized job recommendations**, and **skill gap analysis** using **LLMs (Large Language Models)** and real-time job APIs.
 
 The project integrates **LangChain**, **LangGraph**, **Groq API**, and **Hugging Face embeddings** to create an intelligent pipeline that mimics how a career advisor would analyze a candidate’s profile and suggest relevant opportunities.
 
@@ -18,7 +18,6 @@ The project integrates **LangChain**, **LangGraph**, **Groq API**, and **Hugging
 * To build an **end-to-end automated AI system** that reads resumes and understands user profiles.
 * To generate **personalized job recommendations** from real job sources.
 * To analyze **skill gaps** and suggest areas of improvement.
-* To provide a **structured 90-day learning roadmap** to enhance employability.
 * To display all results through an **interactive Streamlit UI**.
 
 ---
@@ -44,11 +43,8 @@ The project integrates **LangChain**, **LangGraph**, **Groq API**, and **Hugging
 💼 search_jobs()  →  score_jobs()
      ↓
 ⚙️ compute_skill_gaps()
-     ↓
-🚀 generate_roadmap()
-     ↓
+     ↓     ↓
 🤖 summarize_recommendations()
-
 
 ---
 
@@ -182,21 +178,7 @@ Top jobs ranked by semantic similarity.
 
 ---
 
-### **Step 7: 90-Day Career Roadmap**
-
-* **Node:** `node_roadmap`
-* **Tool:** Groq LLM
-* **Purpose:** Generates a learning roadmap to fill skill gaps and build a portfolio.
-
-📦 **Output Example:**
-
-> **Weeks 1–4:** Strengthen SQL & Data Visualization
-> **Weeks 5–8:** Build an ML project on Kaggle
-> **Weeks 9–12:** Deploy Streamlit app on cloud
-
----
-
-### **Step 8: Job Recommendation Explanation**
+### **Step 7: Job Recommendation Explanation**
 
 * **Node:** `node_brief`
 * **Tool:** Groq LLM
@@ -210,7 +192,7 @@ Top jobs ranked by semantic similarity.
 
 ---
 
-### **Step 9: Streamlit Visualization (Frontend)**
+### **Step 8: Streamlit Visualization (Frontend)**
 
 * Left Panel:
 
