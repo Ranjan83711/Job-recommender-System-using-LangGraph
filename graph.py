@@ -50,9 +50,6 @@ def node_gaps(state: State):
     gap = compute_skill_gaps(llm, state["profile"].get("skills", []), requirements)
     return {"skill_gap": gap}
 
-def node_roadmap(state: State):
-    return {"roadmap": generate_roadmap(llm, state["profile"], state["target_roles"])}
-
 def node_brief(state: State):
     return {"final_brief": summarize_recommendations(llm, state["profile"], state["ranked_jobs"])}
 
@@ -77,3 +74,4 @@ def build_graph():
     g.add_edge("roadmap","brief")
     g.add_edge("brief", END)
     return g.compile()
+
